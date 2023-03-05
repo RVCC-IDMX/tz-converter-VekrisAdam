@@ -11,5 +11,3 @@ if (process.argv.length !== 3) {
   // eslint-disable-next-line prefer-destructuring
   targetTimezone = process.argv[2];
 }
-
-console.log(`The time at the ${targetTimezone} timezone is ${moment().tz(targetTimezone).format()}`);
